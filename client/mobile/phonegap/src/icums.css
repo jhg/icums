@@ -12,7 +12,9 @@ body {
  margin: 0px;
  padding: 0px;
  overflow: hidden;
+ background: #000;
 }
+
 
 /* Menu normally hide */
 body aside {
@@ -93,6 +95,7 @@ body section article {
  text-align: left;
 }
 
+
 /* Aside buttons */
 body aside input[type=button] {
  background: #bbb;
@@ -106,18 +109,20 @@ body aside input[type=button] {
  padding-top: 0.25em;
  padding-bottom: 0.25em;
  padding-left: 0.15em;
- border-top: 1px #222 solid;
+ border-top: 1px #444 solid;
  border-bottom: 1px #222 solid;
 }
 
 body aside input[type=button]:active {
  background: #555;
  background: -webkit-gradient(linear, 0% 0%, 100% 0%, to(#666), from(#444));
- background: -webkit-linear-gradient(left, #666, #444 90%, #bbb);
- background: -moz-linear-gradient(left, #666, #444 90%, #bbb);
- background: -o-linear-background(left, #666, #444 90%, #bbb);
- background: -ms-linear-background(left, #666, #444 90%, #bbb);
- background: linear-background(left, #666, #444 90%, #bbb);
+ background: -webkit-linear-gradient(left, #666, #444 90%, #999);
+ background: -moz-linear-gradient(left, #666, #444 90%, #999);
+ background: -o-linear-background(left, #666, #444 90%, #999);
+ background: -ms-linear-background(left, #666, #444 90%, #999);
+ background: linear-background(left, #666, #444 90%, #999);
+ border-top: 1px #666 solid;
+ border-bottom: 1px #777 solid;
 }
 
 
